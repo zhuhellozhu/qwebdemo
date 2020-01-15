@@ -50,9 +50,12 @@
 
 #include "mainwindow.h"
 #include <QApplication>
+#include <QtWebEngine>
 
 int main(int argc, char *argv[])
 {
+
+    QtWebEngine::initialize();
     QCoreApplication::setOrganizationName("QtExamples");
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
