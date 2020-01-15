@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-QT += webenginewidgets
+QT += webenginewidgets  webengine
 
 HEADERS += \
     mainwindow.h \
