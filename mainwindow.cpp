@@ -68,7 +68,7 @@ MainWindow::MainWindow(QWidget *parent)
             &QWebEnginePage::fullScreenRequested,
             this,
             &MainWindow::fullScreenRequested);
-    m_view->load(QUrl(QStringLiteral("http://netflix.com")));
+    m_view->load(QUrl(QStringLiteral("chrome://gpu")));
 }
 
 void MainWindow::fullScreenRequested(QWebEngineFullScreenRequest request)
